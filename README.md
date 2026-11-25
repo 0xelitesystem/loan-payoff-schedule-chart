@@ -1,8 +1,8 @@
-# Loan Amortization Visualizer
+# Loan Payoff Schedule Chart
 
 A single-file browser tool that takes a loan amount, an annual interest rate, a term in years, and an optional extra monthly payment, and shows the monthly payment, the total interest, the total paid, and how the balance falls over the term. If you add an extra payment, it shows how much sooner the loan is paid off and how much interest that saves.
 
-**Live demo:** https://0xelitesystem.github.io/loan-amortization-visualizer/
+**Live demo:** https://0xelitesystem.github.io/loan-payoff-schedule-chart/
 
 It runs entirely in the browser. Nothing is uploaded, stored, or tracked.
 
@@ -32,8 +32,8 @@ Everything runs in your browser. The amount, rate, term and extra payment you en
 ## Run locally
 
 ```bash
-git clone https://github.com/0xelitesystem/loan-amortization-visualizer
-cd loan-amortization-visualizer
+git clone https://github.com/0xelitesystem/loan-payoff-schedule-chart
+cd loan-payoff-schedule-chart
 ```
 
 Open `index.html` in any modern browser. Or serve the folder with `python -m http.server 8000` and visit http://localhost:8000/.
